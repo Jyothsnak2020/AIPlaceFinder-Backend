@@ -12,7 +12,7 @@ const port = 5000;
 
 // Use CORS middleware
 app.use(cors({
-  origin: 'https://tarvel-suggestion-ai.vercel.app', // Replace with your React app's URL
+  origin: 'https://shiny-halva-e56997.netlify.app', // Replace with your React app's URL
 }));
 
 app.use(bodyParser.json());
