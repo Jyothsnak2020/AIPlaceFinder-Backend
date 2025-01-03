@@ -12,7 +12,7 @@ const port = 5000;
 
 // Use CORS middleware
 app.use(cors({
-  origin: 'https://shiny-halva-e56997.netlify.app', // Replace with your React app's URL
+  origin: 'https://incandescent-crepe-0cbc6e.netlify.app', // Replace with your React app's URL
 }));
 
 app.use(bodyParser.json());
@@ -44,11 +44,11 @@ const sendOtpEmail = (email, otp) => {
         <h2>Contact Us</h2>
         <p>If you have any questions or need assistance, please reach out to us at:</p>
         <ul>
-          <li><strong>Email:</strong> bikashmalu1@gmail.com</li>
-          <li><strong>Phone:</strong>+91-9583856595</li>
-          <li><strong>Address:</strong> Bhubaneswar,Odisha</li>
+          <li><strong>Email:</strong> jyothsnak2020@gmail.com</li>
+          <li><strong>Phone:</strong>+91-9848946893</li>
+          <li><strong>Address:</strong> Vizianagram,AndhraPradesh</li>
         </ul>
-        <p>Visit our website: <a href="https://tarvel-suggestion-ai.vercel.app/">www.ai_place_finder.com</a></p>
+        <p>Visit our website: <a href="https://incandescent-crepe-0cbc6e.netlify.app">www.ai_place_finder.com</a></p>
       </body>
     </html>
   `;
