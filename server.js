@@ -12,7 +12,7 @@ const port = 5000;
 
 // Use CORS middleware
 app.use(cors({
-  origin: 'https://incandescent-crepe-0cbc6e.netlify.app', // Replace with your React app's URL
+  origin: 'https://tubular-gelato-46c7cf.netlify.app', // Replace with your React app's URL
 }));
 
 app.use(bodyParser.json());
@@ -48,7 +48,7 @@ const sendOtpEmail = (email, otp) => {
           <li><strong>Phone:</strong>+91-9848946893</li>
           <li><strong>Address:</strong> Vizianagram,AndhraPradesh</li>
         </ul>
-        <p>Visit our website: <a href="https://incandescent-crepe-0cbc6e.netlify.app">www.ai_place_finder.com</a></p>
+        <p>Visit our website: <a href="https://tubular-gelato-46c7cf.netlify.app">www.ai_place_finder.com</a></p>
       </body>
     </html>
   `;
@@ -80,10 +80,10 @@ const otp = otpGenerator.generate(4, { digits: true, upperCase: false, specialCh
   res.json({ 
     message: 'OTP sent successfully from ai_place_finder', 
     contact: {
-      email: 'bikashmalu1@gmail.com',
-      phone: '+91-9583856595',
-      address: 'Bhubaneswar,Odisha',
-      website: 'https://tarvel-suggestion-ai.vercel.app/'
+      email: 'jyothsnak2020@gmail.com',
+      phone: '+91-9848916893',
+      address: 'Vizianagaram,Andhra Pradesh',
+      website: 'https://tubular-gelato-46c7cf.netlify.app'
     }
   });
 });
@@ -97,10 +97,10 @@ app.post('/verify-otp', (req, res) => {
     return res.status(400).json({ 
       error: 'OTP not sent or expired from ai_place_finder',
       contact: {
-        email: 'bikashmalu1@gmail.com',
-        phone: '+91-9583856595',
-        address: 'Bhubaneswar,Odisha',
-        website: 'https://tarvel-suggestion-ai.vercel.app/'
+        email: 'jyothsnak2020@gmail.com',
+        phone: '+91-9848916893',
+        address: 'Vizianagaram,Andhra Pradesh',
+        website: 'https://tubular-gelato-46c7cf.netlify.app'
       }
     });
   }
@@ -114,10 +114,10 @@ app.post('/verify-otp', (req, res) => {
     return res.status(400).json({ 
       error: 'OTP expired from ai_place_finder',
       contact: {
-        email: 'bikashmalu1@gmail.com',
-        phone: '+91-9583856595',
-        address: 'Bhubaneswar,Odisha',
-        website: 'https://tarvel-suggestion-ai.vercel.app/'
+        email: 'jyothsnak2020@gmail.com',
+        phone: '+91-9848916893',
+        address: 'Vizianagaram,Andhra Pradesh',
+        website: 'https://tubular-gelato-46c7cf.netlify.app'
       }
     });
   }
@@ -127,20 +127,20 @@ app.post('/verify-otp', (req, res) => {
     res.json({ 
       message: 'OTP verified successfully from ai_place_finder',
       contact: {
-        email: 'bikashmalu1@gmail.com',
-        phone: '+91-9583856595',
-        address: 'Bhubaneswar,Odisha',
-        website: 'https://www.ai_place_finder.com'
+        email: 'jyothsnak2020@gmail.com',
+        phone: '+91-9848916893',
+        address: 'Vizianagaram,Andhra Pradesh',
+        website: 'https://tubular-gelato-46c7cf.netlify.app'
       }
     });
   } else {
     res.status(400).json({ 
       error: 'Invalid OTP from ai_place_finder',
       contact: {
-        email: 'bikashmalu1@gmail.com',
-        phone: '+91-9583856595',
-        address: 'Bhubaneswar,Odisha',
-        website: 'https://www.ai_place_finder.com'
+        email: 'jyothsnak2020@gmail.com',
+        phone: '+91-9848916893',
+        address: 'Vizianagaram,Andhra Pradesh',
+        website: 'https://tubular-gelato-46c7cf.netlify.app'
       }
     });
   }
