@@ -12,7 +12,7 @@ const port = 5000;
 
 // Use CORS middleware
 app.use(cors({
-  origin: 'https://tubular-gelato-46c7cf.netlify.app', // Replace with your React app's URL
+  origin: 'https://incomparable-arithmetic-689a16.netlify.app', // Replace with your React app's URL
 }));
 
 app.use(bodyParser.json());
@@ -48,7 +48,7 @@ const sendOtpEmail = (email, otp) => {
           <li><strong>Phone:</strong>+91-9848946893</li>
           <li><strong>Address:</strong> Vizianagram,AndhraPradesh</li>
         </ul>
-        <p>Visit our website: <a href="https://tubular-gelato-46c7cf.netlify.app">www.ai_place_finder.com</a></p>
+        <p>Visit our website: <a href="https://incomparable-arithmetic-689a16.netlify.app">www.ai_place_finder.com</a></p>
       </body>
     </html>
   `;
@@ -83,7 +83,7 @@ const otp = otpGenerator.generate(4, { digits: true, upperCase: false, specialCh
       email: 'jyothsnak2020@gmail.com',
       phone: '+91-9848916893',
       address: 'Vizianagaram,Andhra Pradesh',
-      website: 'https://tubular-gelato-46c7cf.netlify.app'
+      website: 'https://incomparable-arithmetic-689a16.netlify.app'
     }
   });
 });
@@ -100,7 +100,7 @@ app.post('/verify-otp', (req, res) => {
         email: 'jyothsnak2020@gmail.com',
         phone: '+91-9848916893',
         address: 'Vizianagaram,Andhra Pradesh',
-        website: 'https://tubular-gelato-46c7cf.netlify.app'
+        website: 'https://incomparable-arithmetic-689a16.netlify.app'
       }
     });
   }
@@ -117,7 +117,7 @@ app.post('/verify-otp', (req, res) => {
         email: 'jyothsnak2020@gmail.com',
         phone: '+91-9848916893',
         address: 'Vizianagaram,Andhra Pradesh',
-        website: 'https://tubular-gelato-46c7cf.netlify.app'
+        website: 'https://incomparable-arithmetic-689a16.netlify.app'
       }
     });
   }
@@ -130,7 +130,7 @@ app.post('/verify-otp', (req, res) => {
         email: 'jyothsnak2020@gmail.com',
         phone: '+91-9848916893',
         address: 'Vizianagaram,Andhra Pradesh',
-        website: 'https://tubular-gelato-46c7cf.netlify.app'
+        website: 'https://incomparable-arithmetic-689a16.netlify.app'
       }
     });
   } else {
@@ -140,7 +140,7 @@ app.post('/verify-otp', (req, res) => {
         email: 'jyothsnak2020@gmail.com',
         phone: '+91-9848916893',
         address: 'Vizianagaram,Andhra Pradesh',
-        website: 'https://tubular-gelato-46c7cf.netlify.app'
+        website: 'https://incomparable-arithmetic-689a16.netlify.app'
       }
     });
   }
