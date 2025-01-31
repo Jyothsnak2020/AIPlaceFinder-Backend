@@ -12,7 +12,7 @@ const port = 5000;
 
 // Use CORS middleware
 app.use(cors({
-  origin: 'https://incomparable-arithmetic-689a16.netlify.app', // Replace with your React app's URL
+  origin: 'https://dapper-fenglisu-d63e99.netlify.app', // Replace with your React app's URL
 }));
 
 app.use(bodyParser.json());
